@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import Sidebar from "@/components/sidebar";
+import Header from "../components/header";
 
 const openSans = Poppins({
-  subsets: ['latin'],
-  display: 'swap',
-  weight: ['300', '400', '500', '600', '700', '800']
-})
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["300", "400", "500", "600", "700", "800"],
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -21,7 +23,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={openSans.className}>
       <body>
-        {children}
+        <Header />
+        <div className="flex">
+          <Sidebar />
+          {children}
+        </div>
       </body>
     </html>
   );

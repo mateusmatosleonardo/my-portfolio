@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import Sidebar from "@/components/sidebar";
-import Header from "../components/header";
+import Header from "@/components/header";
 
 const openSans = Poppins({
   subsets: ["latin"],
@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={openSans.className}>
-      <body>
+      <body className="bg-background">
         <Header />
         <div className="flex">
           <Sidebar />

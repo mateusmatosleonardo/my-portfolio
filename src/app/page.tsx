@@ -2,24 +2,13 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import GIF from "@/assets/gif.gif";
+import GIF from "@/assets/gif-hero.gif";
 import { MdContentCopy } from "react-icons/md";
 
 export default function Home() {
   const [copied, setCopied] = useState(false);
-  const [message, setMessage] = useState("");
-  const [showMessage, setShowMessage] = useState(false);
 
   const email = "m4teusleonardo@gmail.com";
-
-  const messages = [
-    "Você está no caminho certo, jovem dev. Continue treinando suas habilidades de TypeScript e DOM no templo sagrado de React.",
-    "Não tema os bugs. Eles são apenas sombras que revelam a luz do conhecimento.",
-    "A jornada de mil commits começa com um `npm start`.",
-    "Todo mestre já foi um júnior sem Stack Overflow.",
-    "Refatore como quem esculpe uma espada lendária.",
-    "Se sua aplicação quebrou... é porque ela ainda não despertou seu verdadeiro potencial.",
-  ];
 
   async function handleCopy() {
     try {
@@ -31,19 +20,11 @@ export default function Home() {
     }
   }
 
-  function handleClick() {
-    const random = messages[Math.floor(Math.random() * messages.length)];
-    setMessage(random);
-    setShowMessage(true);
-    setTimeout(() => setShowMessage(false), 6000);
-  }
-
   return (
-    <div className="w-full bg-black/95">
-      {/* <Header /> */}
+    <div className="w-full">
       <div className="mx-auto">
         <div className="flex flex-col h-full mx-auto max-w-xl">
-          <div className="flex flex-col space-y-4 my-32 text-base text-[0.895rem] text-white">
+          <div className="flex flex-col space-y-4 my-32 text-[0.96rem] text-white">
             <span>Olá! Eu sou Mateus Leonardo.</span>
 
             <span>
@@ -53,7 +34,15 @@ export default function Home() {
 
             <span>
               Ao longo da minha jornada, me envolvi em vários projetos legais, sempre
-              focando em criar soluções performáticas, fáceis de usar e bem otimizadas.
+              focando em criar soluções rápidas, seguras e fáceis de usar. Gosto de pensar
+              em como aquilo vai ser útil de verdade pra quem estiver usando, se vai
+              facilitar alguma tarefa, resolver um problema ou simplesmente tornar a
+              experiência mais agradável.
+            </span>
+
+            <span>
+              Acredito que inovação não é só criar algo do zero, mas também melhorar o que
+              já existe com criatividade, propósito e um olhar atento para os detalhes.
             </span>
 
             <div className="h-2" />
@@ -65,7 +54,7 @@ export default function Home() {
             <div className="h-2" />
 
             <span>
-              Quando não estou programando, gosto de assistir animes, ler mangás, jogar
+              Quando não estou programando, gosto de assistir animes, ler livros, jogar
               com amigos e explorar coisas novas que me interessam, desde tecnologia até
               curiosidades aleatórias.
             </span>
@@ -94,30 +83,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      {/* <div className="mt-6 flex flex-col items-center">
-        <button
-          onClick={handleClick}
-          className="flex items-center gap-2 px-4 py-2 text-white bg-green-600 hover:bg-green-700 transition-all rounded-full shadow-lg active:scale-95"
-        >
-          <GiScrollUnfurled />
-          Receber mensagem do Sensei
-        </button>
-
-        <AnimatePresence>
-        {showMessage && (
-          <div
-            // initial={{ opacity: 0, scale: 0.9, y: 10 }}
-            // animate={{ opacity: 1, scale: 1, y: 0 }}
-            // exit={{ opacity: 0, scale: 0.9, y: 10 }}
-            // transition={{ duration: 0.4 }}
-            className="mt-4 px-5 py-3 max-w-md text-center text-sm bg-[#1f1f1f] text-green-400 border border-green-700 rounded-lg shadow-md"
-          >
-            {message}
-          </div>
-        )}
-        </AnimatePresence>
-      </div> */}
     </div>
   );
 }

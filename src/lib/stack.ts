@@ -76,7 +76,8 @@ export const stack: Stack = {
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg",
       alt: "springboot-icon",
       title: "Spring Boot",
-      subtitle: "Framework Java para construção de APIs e microsserviços.",
+      subtitle:
+        "Framework Java e Kotlin para construção de APIs e microsserviços.",
     },
   ],
   languages: [
@@ -84,22 +85,22 @@ export const stack: Stack = {
       image:
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg",
       alt: "javascript-icon",
-      title: "JavaScript ",
+      title: "JavaScript",
       subtitle: "Linguagem de programação voltada para web e mobile.",
     },
     {
       image:
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg",
       alt: "typescript-icon",
-      title: "TypeScript ",
+      title: "TypeScript",
       subtitle: "Superset do JavaScript com tipagem estática.",
     },
     {
       image:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
-      alt: "java-icon",
-      title: "Java ",
-      subtitle: "Linguagem orientada a objetos voltada para back-end.",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg",
+      alt: "kotlin-icon",
+      title: "Kotlin",
+      subtitle: "Linguagem de programação para Android, JVM e back-end.",
     },
   ],
   infrastructure: [
@@ -108,7 +109,8 @@ export const stack: Stack = {
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain.svg",
       alt: "docker-icon",
       title: "Docker",
-      subtitle: "Containerização de aplicações para ambientes de desenvolvimento.",
+      subtitle:
+        "Containerização de aplicações para ambientes de desenvolvimento.",
     },
     {
       image:
@@ -162,7 +164,8 @@ export const stack: Stack = {
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg",
       alt: "intellij-icon",
       title: "IntelliJ IDEA",
-      subtitle: "IDE poderosa para desenvolvimento em Java e outras linguagens.",
+      subtitle:
+        "IDE poderosa para desenvolvimento em Java e outras linguagens.",
     },
     {
       image:

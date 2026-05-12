@@ -28,35 +28,42 @@ export default function Home() {
             <span>Olá! Eu sou Mateus Leonardo.</span>
 
             <span>
-              Sou Desenvolvedor de Software Full Stack com mais de 4 anos de experiência e
-              estou no penúltimo semestre da minha graduação em Ciência da Computação.
+              Sou Desenvolvedor de Software Full Stack com 6 anos de experiência
+              e estou no penúltimo semestre da minha graduação em Ciência da
+              Computação.
             </span>
 
             <span>
-              Ao longo da minha jornada, me envolvi em vários projetos legais, sempre
-              focando em criar soluções rápidas, seguras e fáceis de usar. Gosto de pensar
-              em como aquilo vai ser útil de verdade pra quem estiver usando, se vai
-              facilitar alguma tarefa, resolver um problema ou simplesmente tornar a
-              experiência mais agradável.
+              Ao longo da minha jornada, me envolvi em vários projetos legais,
+              sempre focando em criar soluções rápidas, seguras e fáceis de
+              usar. Gosto de pensar em como aquilo vai ser útil de verdade pra
+              quem estiver usando, se vai facilitar alguma tarefa, resolver um
+              problema ou simplesmente tornar a experiência mais agradável.
             </span>
 
             <span>
-              Acredito que inovação não é só criar algo do zero, mas também melhorar o que
-              já existe com criatividade, propósito e um olhar atento para os detalhes.
+              Acredito que inovação não é só criar algo do zero, mas também
+              melhorar o que já existe com criatividade, propósito e um olhar
+              atento para os detalhes.
             </span>
 
             <div className="h-2" />
 
             <div>
-              <Image src={GIF} className="w-full" alt="profile-image" quality={100} />
+              <Image
+                src={GIF}
+                className="w-full"
+                alt="profile-image"
+                quality={100}
+              />
             </div>
 
             <div className="h-2" />
 
             <span>
-              Quando não estou programando, gosto de assistir animes, ler livros, jogar
-              com amigos e explorar coisas novas que me interessam, desde tecnologia até
-              curiosidades aleatórias.
+              Quando não estou programando, gosto de assistir animes, ler
+              livros, jogar com amigos e explorar coisas novas que me
+              interessam, desde tecnologia até curiosidades aleatórias.
             </span>
 
             <span>Quer bater um papo?</span>

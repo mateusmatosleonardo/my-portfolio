@@ -6,7 +6,7 @@ export default function TechStackPage() {
     <div className="w-full">
       <div className="mx-auto">
         <div className="flex flex-col h-full mx-auto max-w-xl">
-          <div className="flex flex-col space-y-4 my-32 text-base text-[0.88rem] text-white">
+          <div className="flex flex-col space-y-4 my-32 text-base text-[0.88rem] text-white px-4 lg:px-0">
             <div className="space-y-2">
               <h1 className="text-2xl font-semibold">Tech Stack</h1>
               <p className="text-[#a1a1a1]">

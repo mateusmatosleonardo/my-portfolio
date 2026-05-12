@@ -40,13 +40,13 @@ export const stack: Stack = {
       subtitle: "Framework para apps React Native sem configuração.",
       invert: true,
     },
-    {
-      image:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg",
-      alt: "svelte-icon",
-      title: "Svelte",
-      subtitle: "Framework reativo para web sem runtime.",
-    },
+    // {
+    //   image:
+    //     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg",
+    //   alt: "svelte-icon",
+    //   title: "Svelte",
+    //   subtitle: "Framework reativo para web sem runtime.",
+    // },
   ],
   backend: [
     {
